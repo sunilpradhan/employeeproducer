@@ -15,4 +15,4 @@ ADD employeeproducer-0.0.1-SNAPSHOT.jar employeeproducer.jar
 # Run the jar file 
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/employeeproducer.jar"]
 
-EXPOSE 8081
+EXPOSE 8080
